@@ -4,7 +4,7 @@
 
 2. dbConnectionString.txt-ben megadni az adatbázis csatlakozáshoz szükséges paramétereket.
 
-3. A PizzaPlace.exe linkkel indíthatjuk a programot
+3. A [Letöltés helye]\PizzaPlace-main\PizzaPlace\bin\Debug\netcoreapp3.1\PizzaPlace.exe linkkel indíthatjuk a programot
 
 4. Csatlakozás ablakban a ConnectionString adatait tartalmazó fájl helyét kell megadnunk, ezt a program megjegyzi következő indításhoz
 
