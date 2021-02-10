@@ -1,0 +1,15 @@
+0. Az alkalmazás .NET Core 3.1-ben készült, amit a Projektnek tartalmaznia is kell, nincs szükség telepítésre.
+
+1. Adatbázison a megfelelő jogosultságokkal lefuttatni az InitQuery.sql fájlt (MSSQL2019-en készült)
+
+2. dbConnectionString.txt-ben megadni az adatbázis csatlakozáshoz szükséges paramétereket.
+
+3. A PizzaPlace.exe linkkel indíthatjuk a programot
+
+4. Csatlakozás ablakban a ConnectionString adatait tartalmazó fájl helyét kell megadnunk, ezt a program megjegyzi következő indításhoz
+
+5. Az új ügyfelek automatikusan mentésre kerülnek
+
+6. Ha az ügyfél neve és címe megegyezik, de módosítjuk a telefonszámot, az felülíródik
+      az ügyfél neve vagy címe változik, új bejegyzés jön létre az adatbázis ügyfelek között
+	- így egy ügyfélnél több cím, egy címen több ügyfél lehetséges
